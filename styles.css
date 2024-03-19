@@ -1,0 +1,142 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #333;
+    body.dashed {border-style: dashed;}
+}
+
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+#one{
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+
+h2{
+    color:blue;
+     text-align:center;
+}
+
+#zero{
+    color:blueviolet;
+    font-size: 50px;
+    
+    text-align:right;
+
+}
+
+#two{
+    
+    color:white;
+    font-size: 25px;
+    
+    text-align: center;
+    
+    
+    
+    
+}
+
+#three{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    
+}
+
+#four{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    
+}
+#five{
+    color:blueviolet;
+    font-size: 50px;
+    
+    text-align:left;
+}
+
+#six{
+    color:blueviolet;
+    font-size: 50px;
+    
+    text-align:right;
+}
+
+#seven{
+    color:blueviolet;
+    font-size: 50px;
+    
+    text-align:left;
+}
+
+#eight{
+    color:blueviolet;
+    font-size: 50px;
+    
+    text-align:right;
+}
+
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.member {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.member img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.column {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        float: none;
+    }
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
